@@ -18,48 +18,27 @@ img{
 main{
     height: calc(100% - 80px);
 }
+/* centramento di speaker view e icona ingrandimento  */
 .top-right{
     display: flex;
     justify-content: flex-end;
     gap: .5rem;
-    padding-top: 2rem;
-    
+    padding-top: 2rem;   
 }
+/* speaker view  */
 .speaker-view{
     color: white;
     font-size: 0.8rem;
     background-color: rgba(237, 231, 225,.5) ;
 }
+/* icona ingrandimento  */
 .zoom{
     background-color:  rgba(237, 231, 225,.5);
 }
-
+/* contenitore foto  */
 .container{
-    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
-}
-.album{
-    width: calc(90% / 7);
-    display: flex;
-    margin-bottom: 1rem;
-    justify-content: flex-end;
-    
-}
-.image{
-    position: relative;
-    display: block;
-}
-.pinco{
-    width: 100px;
-    color: white;
-    background-color:  rgba(237, 231, 225,.5);
-    position: absolute;
-    bottom: 3px;  
-}
-
-.container{
     width: 90%;
     position: absolute;
     top: 50%;
@@ -67,6 +46,27 @@ main{
     transform: translate(-50%,-50%);
     display: flex;
 }
+/* contenitore card */
+.album{
+    width: calc(90% / 7);
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: flex-end;  
+}
+/* immagine */
+.image{
+    position: relative;
+    display: block;
+}
+/* nome */
+.pinco{
+    width: 100px;
+    color: white;
+    background-color:  rgba(237, 231, 225,.5);
+    position: absolute;
+    bottom: 3px;  
+}
+/* parte inferiore  */
 footer{
     height: 80px;
     background-color: hsl(0deg 0% 13.33%);
@@ -74,7 +74,8 @@ footer{
     bottom: 0;
     width: 100%;
 }
-.first-line{
+/* spaziatura footer  */
+.bottom-line{
     display: flex;
     justify-content: space-between;
 }
@@ -88,17 +89,21 @@ a{
     text-decoration: none;
     color: white;     
 }
+/* nome delle icone */
 .name{
     color: white;
     margin-top: 10px;
     font-size: 0.8rem;
 }
+/* icone */
 .logo{
     padding: 20px 0 0 5px;  
 }
+/* spaziatura icone speciali */
 .words{
     text-align: center;  
 }
+/* end meeting */
 #end{
     color: red;
    background-color: hsl(0deg 0% 29.02%);
@@ -106,6 +111,5 @@ a{
     height: 80px;
     line-height: 80px;
     padding: 0 15px;
-
 }
 
