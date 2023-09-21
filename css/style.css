@@ -6,36 +6,49 @@
 }
 img{
     max-width: 100%;
+    
 }
 .wrap{
     width: 100%;
     height: 100vh;
-    background-color: aqua;
+    background-color: hsl(0deg 0% 0%);
     position: relative;
 }
 main{
     height: calc(100% - 80px);
 }
-.album{
-    position: relative;
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
-.pinco-pallo{
-    width: calc(95% / 7);
+.album{
+    width: calc(90% / 7);
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: flex-end;
+    
+}
+.image{
+    position: relative;
+    display: block;
+}
+.pinco{
+    width: 100px;
     color: white;
     background-color:  rgba(237, 231, 225,.5);
     position: absolute;
-    bottom: 5px;
-    left: 0;
+    bottom: 3px;  
 }
 
 .container{
     width: 90%;
-    min-height: 70%;
-    background-color: orange;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    display: flex;
 }
 footer{
     height: 80px;
