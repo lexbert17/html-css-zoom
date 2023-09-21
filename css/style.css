@@ -5,18 +5,35 @@
     box-sizing: border-box;
 }
 img{
-    max-width: 100%;
-    
+    max-width: 100%;   
 }
+/* grandezza intera pagina */
 .wrap{
     width: 100%;
     height: 100vh;
     background-color: hsl(0deg 0% 0%);
     position: relative;
 }
+/* grandezza main  */
 main{
     height: calc(100% - 80px);
 }
+.top-right{
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+    padding-top: 2rem;
+    
+}
+.speaker-view{
+    color: white;
+    font-size: 0.8rem;
+    background-color: rgba(237, 231, 225,.5) ;
+}
+.zoom{
+    background-color:  rgba(237, 231, 225,.5);
+}
+
 .container{
     display: flex;
     justify-content: space-between;
