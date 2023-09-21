@@ -12,7 +12,30 @@ img{
     height: 100vh;
     background-color: aqua;
     position: relative;
+}
+main{
+    height: calc(100% - 80px);
+}
+.album{
+    position: relative;
+}
+.pinco-pallo{
+    width: calc(95% / 7);
+    color: white;
+    background-color:  rgba(237, 231, 225,.5);
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
 
+.container{
+    width: 90%;
+    min-height: 70%;
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 footer{
     height: 80px;
